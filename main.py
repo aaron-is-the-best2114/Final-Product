@@ -148,6 +148,9 @@ while run:
         if event.type == pygame.MOUSEBUTTONDOWN:
             if A_rect.collidepoint(event.pos):
                 print("RFID Sensor")
+                file_path = '~/Final-Product/RFID/2.2.10_read.py'
+                command = "thonny " + file_path
+                os.system(command)
             if B_rect.collidepoint(event.pos):
                 print("LED Bar Graph")
             if C_rect.collidepoint(event.pos):
