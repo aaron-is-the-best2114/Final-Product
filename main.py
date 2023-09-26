@@ -170,37 +170,40 @@ while run:
                 os.system(command)
             if E_rect.collidepoint(event.pos):
                 print("MAX7219 8x8 Matrix Display")
-                file_path = '~/Final-Product/Files/1.1.6_LedMatrix'
+                file_path = '~/Final-Product/Files/1.1.6_LedMatrix.py'
                 command = "thonny " + file_path
                 os.system(command)
             if F_rect.collidepoint(event.pos):
                 print("Buzzer")
-                file_path = '~/Final-Product/Files/Buzzers/'
+                file_path = '~/Final-Product/Files/Buzzers/1.2.1_ActiveBuzzer.py'
+                file_path2 = '~/Final-Product/Files/Buzzers/1.2.2_PassiveBuzzer.py'
                 command = "thonny " + file_path
+                command2 = "thonny " + file_path2
                 os.system(command)
+                os.system(command2)
             if G_rect.collidepoint(event.pos):
                 print("5v DC Motor")
-                file_path = '~/Final-Product/Files/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/1.3.1_Motor.py'
                 command = "thonny " + file_path
                 os.system(command)
             if H_rect.collidepoint(event.pos):
                 print("Servo Motor")
-                file_path = '~/Final-Product/Files/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/1.3.2_Servo.py'
                 command = "thonny " + file_path
                 os.system(command)
             if I_rect.collidepoint(event.pos):
                 print("Relay w/ LED")
-                file_path = '~/Final-Product/Files/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/1.3.3_Relay.py'
                 command = "thonny " + file_path
                 os.system(command)
             if J_rect.collidepoint(event.pos):
                 print("Micro Switch")
-                file_path = '~/Final-Product/Files/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.1.2_MicroSwitch.py'
                 command = "thonny " + file_path
                 os.system(command)
             if K_rect.collidepoint(event.pos):
                 print("Touch Switch")
-                file_path = '~/Final-Product/Files/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.1.3_TouchSwitch.py'
                 command = "thonny " + file_path
                 os.system(command)
             if L_rect.collidepoint(event.pos):
