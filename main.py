@@ -208,87 +208,87 @@ while run:
                 os.system(command)
             if L_rect.collidepoint(event.pos):
                 print("DHT-11 Module")
-                file_path = '~/Final-Product/Files/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.2.3_DHT.py'
                 command = "thonny " + file_path
                 os.system(command)
             if M_rect.collidepoint(event.pos):
                 print("Tilt Switch")
-                file_path = '~/Final-Product/Files/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.1.5_Tilt.py'
                 command = "thonny " + file_path
                 os.system(command)
             if N_rect.collidepoint(event.pos):
                 print("Speed Sensor")
-                file_path = '~/Final-Product/Files/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.2.6_speed_sensor_module.py'
                 command = "thonny " + file_path
                 os.system(command)
             if O_rect.collidepoint(event.pos):
                 print("PIR Motion Sensor")
-                file_path = '~/Final-Product/Files/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.2.7_PIR.py'
                 command = "thonny " + file_path
                 os.system(command)
             if P_rect.collidepoint(event.pos):
                 print("MPU6050 Module")
-                file_path = '~/Final-Product/Files/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.2.9_mpu6050.py'
                 command = "thonny " + file_path
                 os.system(command)
             if Q_rect.collidepoint(event.pos):
                 print("Ultrasonic Sensor")
-                file_path = '~/Final-Product/Files/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.2.8_Ultrasonic.py'
                 command = "thonny " + file_path
                 os.system(command)
             if R_rect.collidepoint(event.pos):
                 print("Joystick Module")
-                file_path = '~/Final-Product/Files/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.1.9_Joystick.py'
                 command = "thonny " + file_path
                 os.system(command)
             if S_rect.collidepoint(event.pos):
                 print("Rotary Encoder")
-                file_path = '~/Final-Product/Files/RFID/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.1.6_RotaryEncoder.py'
                 command = "thonny " + file_path
                 os.system(command)
             if T_rect.collidepoint(event.pos):
                 print("Potentiometer w/ LED")
-                file_path = '~/Final-Product/Files/RFID/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.1.7_Potentiometer.py'
                 command = "thonny " + file_path
                 os.system(command)
             if U_rect.collidepoint(event.pos):
                 print("IR Obstacle Avoidance Sensor")
-                file_path = '~/Final-Product/Files/RFID/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.2.5_IrObstacle.py'
                 command = "thonny " + file_path
                 os.system(command)
             if V_rect.collidepoint(event.pos):
                 print("Keypad Module")
-                file_path = '~/Final-Product/Files/RFID/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.1.8_Keypad.py'
                 command = "thonny " + file_path
                 os.system(command)
             if W_rect.collidepoint(event.pos):
                 print("WS2812 LED Light Ring")
-                file_path = '~/Final-Product/Files/RFID/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/Ring Light.py'
                 command = "thonny " + file_path
                 os.system(command)
             if X_rect.collidepoint(event.pos):
                 print("Reed Switch Module")
-                file_path = '~/Final-Product/Files/RFID/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.2.4_ReedSwitch.py'
                 command = "thonny " + file_path
                 os.system(command)
             if Y_rect.collidepoint(event.pos):
                 print("Thermistor")
-                file_path = '~/Final-Product/Files/RFID/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.2.2_Termistor.py'
                 command = "thonny " + file_path
                 os.system(command)
             if Z_rect.collidepoint(event.pos):
                 print("Photoresister")
-                file_path = '~/Final-Product/Files/RFID/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.2.1_Photoresistor.py'
                 command = "thonny " + file_path
                 os.system(command)
             if a_rect.collidepoint(event.pos):
                 print("RGB LED")
-                file_path = '~/Final-Product/Files/RFID/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/1.1.2_rgbled.py'
                 command = "thonny " + file_path
                 os.system(command)
             if b_rect.collidepoint(event.pos):
                 print("Button")
-                file_path = '~/Final-Product/Files/RFID/2.2.10_read.py'
+                file_path = '~/Final-Product/Files/2.1.1_Button.py'
                 command = "thonny " + file_path
                 os.system(command)
 
