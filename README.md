@@ -122,82 +122,82 @@
 
  **3.** Connect the Orange wire to `GPIO 18` on the Raspberry Pi.
 
-**Day 11**
+**Day 11 Relay w/ LED**
+
+ **1.**
+
+**Day 12 Micro Switch**
 
 
 
-**Day 12**
+**Day 13 Touch Switch**
 
 
 
-**Day 13**
+**Day 14 DHT-11**
 
 
 
-**Day 14**
+**Day 15 Tilt Switch**
 
 
 
-**Day 15**
+**Day 16 Speed Sensor**
 
 
 
-**Day 16**
+**Day 17 PIR Sensor**
 
 
 
-**Day 17**
+**Day 18 MPU6050**
 
 
 
-**Day 18**
+**Day 19 Ultrasonic Sensor**
 
 
 
-**Day 19**
+**Day 20 Joystick**
 
 
 
-**Day 20**
+**Day 21 Rotary Encoder**
 
 
 
-**Day 21**
+**Day 22 Potentiometer**
 
 
 
-**Day 22**
+**Day 23 IR Obstacle Avoidance Sensor**
 
 
 
-**Day 23**
+**Day 24 Keypad**
 
 
 
-**Day 24**
+**Day 25 Ring Light**
 
 
 
-**Day 25**
+**Day 26 Reed Switch**
 
 
 
-**Day 26**
+**Day 27 Thermistor**
 
 
 
-**Day 27**
+**Day 28 Photoresistor**
 
 
 
-**Day 28**
+**Day 29 RGB LED**
 
 
 
-**Day 29**
-
-
-
-**Day 29**
+**Day 30 Button**
 
 
