@@ -81,3 +81,19 @@
  **1.** Connect the `GND` and `VCC` pins on the Module to the `GND` and `5V` pins on the Raspberry Pi Respectivly.
 
  **2.** Connect the `SDA` and `SCL` pins on the Module to the `SDA` and `SCL` pins on the Raspberry Pi Respectivly.
+
+**Day 7/8 Buzzer**
+
+ **1.** Place the `S8550 PNP Transistor` and Buzzer on a breadboard with the flat side of the transistor facing you.
+
+ **2.** With the flat side of the transistor facing you, connect the far left pin to the negative pin on the buzzer.
+
+ **3.** Connect the middle pin of the transistor to a `1K Ohm` resistor, which will then connect to `GPIO 4` on the Raspberry Pi.
+
+ **4.** Connect the far right pin on the transistor to any `GND` pin on the Raspberry Pi.
+
+ **5.** Connect the positive side of the buzzer to any `3V3` pins on the Raspberry Pi.
+
+**Day 9 Motor** 
+
+ **1.** 
