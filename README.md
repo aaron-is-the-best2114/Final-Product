@@ -96,4 +96,108 @@
 
 **Day 9 Motor** 
 
- **1.** 
+ **1.** Grab a breadboard power supply and connect is so it's outputting 5 volts. Orientate the breadboard so that the power supply is on the right hand side. 
+
+ **2.** Place your L293D IC Chip so that the lable is readable to you. **WARNING: DO NOT PLACE UPSIDE DOWN. IF YOU NEED HELP, ASK ME PLEASE!** Connect the top far left pin on the chip to the voltage rail coming from the breadboard power supply.
+
+ **3.** Connect the bottom far left pin on the IC Chip to `GPIO 5` on the Raspberry Pi.
+
+ **4.** Connect the one next to that pin to `GPIO 6` on the Raspberry Pi.
+
+ **5.** Connect the next one to either the positive or negative side on the DC motor.
+
+ **6.** Connect the next two pins on the IC Chip to a `GND` pin on the Raspberry Pi and the ground pin on the breadboard power supply.
+
+ **7.** Connect the next pin on the IC Chip to the other pin on the DC motor. 
+
+ **8.** Connect the pin next to that one to `GPIO 13` on the Raspberry Pi.
+
+ **9.** Connect the last pin to the voltage rail on the breadboard power supply.
+
+**Day 10 Servo Motor**
+
+ **1.** Connect the Brown wire to any `GND` on the Raspberry Pi.
+
+ **2.** Connect the Red wire to a `3V3` pin on the Raspberry Pi.
+
+ **3.** Connect the Orange wire to `GPIO 18` on the Raspberry Pi.
+
+**Day 11**
+
+
+
+**Day 12**
+
+
+
+**Day 13**
+
+
+
+**Day 14**
+
+
+
+**Day 15**
+
+
+
+**Day 16**
+
+
+
+**Day 17**
+
+
+
+**Day 18**
+
+
+
+**Day 19**
+
+
+
+**Day 20**
+
+
+
+**Day 21**
+
+
+
+**Day 22**
+
+
+
+**Day 23**
+
+
+
+**Day 24**
+
+
+
+**Day 25**
+
+
+
+**Day 26**
+
+
+
+**Day 27**
+
+
+
+**Day 28**
+
+
+
+**Day 29**
+
+
+
+**Day 29**
+
+
