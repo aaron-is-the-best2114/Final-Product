@@ -62,4 +62,22 @@
 
 **Day 4 4-Digit 7-Segment Display**
 
-  **1.** 
+  **1.** I fell like this one is redundent and is practically the same thing as the last one. I'm going to skip this one for you all to fingure out.
+
+**Day 5 MAX7219 8x8 Matrix Display**
+
+ **1.** Connect the `VCC` pin on the Module to any of the two `5.0V` pins on the Raspberry Pi.
+
+ **2.** Connect the `GND` pin on the Module to any of the `GND` pins on the Raspberry Pi.
+
+ **3.** Connect the `DIN` pin on the Module to `GPIO 10`, Physical Pin `19` on the Raspberry Pi.
+
+ **4.** Connect the `CS` pin on the Module to `GPIO 8`, Physical Pin `24` on the Raspberry Pi.
+
+ **5.** Connect the `CLK` pin on the Module to `GPIO 11`, Physical Pin `23` on the Raspberry Pi.
+
+**Day 6 I2C LCD1602**
+
+ **1.** Connect the `GND` and `VCC` pins on the Module to the `GND` and `5V` pins on the Raspberry Pi Respectivly.
+
+ **2.** Connect the `SDA` and `SCL` pins on the Module to the `SDA` and `SCL` pins on the Raspberry Pi Respectivly.
