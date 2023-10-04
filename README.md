@@ -3,7 +3,7 @@
 ## Wiring
 
 **Day 1 RFID Module**
-
+---------------------------
   **1.** Connect the `SDA` pin on the RFID module to the `SPICE0` or `GPIO 8` on the Raspberry Pi. Physical Pin `24`
   
   **2.** Connect the `SCK` pin on the module to the `SPISCLK` or `GPIO 11` on the Raspberry Pi. Physical Pin `23`
@@ -19,7 +19,7 @@
   **7.** Connect the `3.3V` pin on the module to either of the two `3.3V` pins on the Raspberry Pi
 
 **Day 2 LED Bar Graph**
-
+---------------------------
   **1.** Place the Bar Graph on a breadboard and locate the side with the label. Connect all the pins on the same side of the label to `220 Ohm` resistors. Then connect those resistors to any of the `3.3V` pins on the Raspberry Pi.
 
   **2.** With the module placed on a breadboard with the lable side down "facing you" from left to right connect the far left pin to `GPIO 17` on the Raspberry Pi. Physical Pin `11`
@@ -27,7 +27,7 @@
   **3.** Connect the next pin to `GPIO 18`, physical pin `12`. From left to right after that connect each of the pins to the fallowing respectivly, `GPIO 27`, `GPIO 22`, `GPIO 23`, `GPIO 24`, `GPIO 25`, `GPIO 2`, `GPIO 3`, `GPIO 8`.
 
 **Day 3 7-Segment Display**
-
+---------------------------
   **1.** Collect the segment display and a 74HC595 IC chip. Place them on the breadboard so that the labels are facing you and are not upside down. You should be able to read them clearly. With the IC chip position so you can read the lable on it, we can begin wiring that. 
 
   **2.** From left to right connect the far left pin to a `3.3V` pin on the Raspberry Pi. **WARNING: DO NOT PLACE IC CHIP UPSIDE DOWN!! (I've had breadboards melt because of that mistake) If you need help ask me, I will provide you with pictures to help guide you**
@@ -61,11 +61,11 @@
   **16.** Connect the bottom middle pin on the segment display to a `220 Ohm` resistor which will connect to any `GND` pin on the Raspberry Pi.
 
 **Day 4 4-Digit 7-Segment Display**
-
+---------------------------
   **1.** I fell like this one is redundent and is practically the same thing as the last one. I'm going to skip this one for you all to fingure out.
 
 **Day 5 MAX7219 8x8 Matrix Display**
-
+---------------------------
  **1.** Connect the `VCC` pin on the Module to any of the two `5.0V` pins on the Raspberry Pi.
 
  **2.** Connect the `GND` pin on the Module to any of the `GND` pins on the Raspberry Pi.
@@ -77,13 +77,13 @@
  **5.** Connect the `CLK` pin on the Module to `GPIO 11`, Physical Pin `23` on the Raspberry Pi.
 
 **Day 6 I2C LCD1602**
-
+---------------------------
  **1.** Connect the `GND` and `VCC` pins on the Module to the `GND` and `5V` pins on the Raspberry Pi Respectivly.
 
  **2.** Connect the `SDA` and `SCL` pins on the Module to the `SDA` and `SCL` pins on the Raspberry Pi Respectivly.
 
 **Day 7/8 Buzzer**
-
+---------------------------
  **1.** Place the `S8550 PNP Transistor` and Buzzer on a breadboard with the flat side of the transistor facing you.
 
  **2.** With the flat side of the transistor facing you, connect the far left pin to the negative pin on the buzzer.
@@ -95,7 +95,7 @@
  **5.** Connect the positive side of the buzzer to any `3V3` pins on the Raspberry Pi.
 
 **Day 9 Motor** 
-
+---------------------------
  **1.** Grab a breadboard power supply and connect is so it's outputting 5 volts. Orientate the breadboard so that the power supply is on the right hand side. 
 
  **2.** Place your L293D IC Chip so that the lable is readable to you. **WARNING: DO NOT PLACE UPSIDE DOWN. IF YOU NEED HELP, ASK ME PLEASE!** Connect the top far left pin on the chip to the voltage rail coming from the breadboard power supply.
@@ -115,7 +115,7 @@
  **9.** Connect the last pin to the voltage rail on the breadboard power supply.
 
 **Day 10 Servo Motor**
-
+---------------------------
  **1.** Connect the Brown wire to any `GND` on the Raspberry Pi.
 
  **2.** Connect the Red wire to a `3V3` pin on the Raspberry Pi.
@@ -123,81 +123,81 @@
  **3.** Connect the Orange wire to `GPIO 18` on the Raspberry Pi.
 
 **Day 11 Relay w/ LED**
-
+---------------------------
  **1.**
 
 **Day 12 Micro Switch**
-
+---------------------------
 
 
 **Day 13 Touch Switch**
-
+---------------------------
 
 
 **Day 14 DHT-11**
-
+---------------------------
 
 
 **Day 15 Tilt Switch**
-
+---------------------------
 
 
 **Day 16 Speed Sensor**
-
+---------------------------
 
 
 **Day 17 PIR Sensor**
-
+---------------------------
 
 
 **Day 18 MPU6050**
-
+---------------------------
 
 
 **Day 19 Ultrasonic Sensor**
-
+---------------------------
 
 
 **Day 20 Joystick**
-
+---------------------------
 
 
 **Day 21 Rotary Encoder**
-
+---------------------------
 
 
 **Day 22 Potentiometer**
-
+---------------------------
 
 
 **Day 23 IR Obstacle Avoidance Sensor**
-
+---------------------------
 
 
 **Day 24 Keypad**
-
+---------------------------
 
 
 **Day 25 Ring Light**
-
+---------------------------
 
 
 **Day 26 Reed Switch**
-
+---------------------------
 
 
 **Day 27 Thermistor**
-
+---------------------------
 
 
 **Day 28 Photoresistor**
-
+---------------------------
 
 
 **Day 29 RGB LED**
-
+---------------------------
 
 
 **Day 30 Button**
-
+---------------------------
 
