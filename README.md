@@ -124,7 +124,13 @@
 
 **Day 11 Relay w/ LED**
 ---------------------------
- **1.**
+ **1.** Place your `S8050 NPN Transistor` on a bread board so that the flat side is towards you. Connect the far left pin to any available `GND` pin on the Raspberry Pi.
+
+ **2.** Connect the middle pin of the Transistor to a `1k Ohm` resistor which will connect to `GPIO 25` on the Raspberry Pi. 
+
+ **3.** Place your 5V relay so that the single pins are going towards the transisor it if the text is upside down, DO NOT place incorrectly, if you need help I will provide you with pictures.
+
+ **4.** With the relay placed connect the far right pin of the transistor and the top far left pin of the relay with a `1N4007` Diode.
 
 **Day 12 Micro Switch**
 ---------------------------
