@@ -130,19 +130,37 @@
 
  **3.** Place your 5V relay so that the single pins are going towards the transisor it if the text is upside down, DO NOT place incorrectly, if you need help I will provide you with pictures.
 
- **4.** With the relay placed connect the far right pin of the transistor and the top far left pin of the relay with a `1N4007` Diode.
+ **4.** With the relay placed connect the far right pin of the transistor and the top far left pin of the relay with a `1N4007` Diode. As well as connect the far right pin of the transistor to the pin second from the right on the top of the relay.
+
+ **5.** Connect the same pin as the `1N4007` is connected on the relay to any avaiable `5V` pins on the Raspberry Pi.
+
+ **6.** Connect the bottom far left pin on the relay to the bottom second from the right pin on the relay and a `5V` pin on the Raspberry Pi.
+
+ **7.** Connect the bottom far right pin of the relay to a `220 Ohm` resistor then to the positive side of any color LED. Connect the negative side of that LED to any available `GND` pin on the Raspberry Pi.
 
 **Day 12 Micro Switch**
 ---------------------------
+ **1.** This is Optional and uses the same pins as the Touch Switch module, this one is optional, but to save me time, I'll skip it and just do the Touch Switch Module on Day 13.
 
+**End of Part I, Start Part II**
+---------------------------------
+ **i.** At this point you may be running out of ground and voltage wires coming from the raspberry pi. What I would do it connect a single `5v`, `3V`, and `GND` pin coming from the Raspberry Pi to the voltage and ground rails on a breadboard to maximize those pins. Any questions, please ask me. 
 
 **Day 13 Touch Switch**
 ---------------------------
+ **1.** Connect the `GND` pin on the module to any avaiable ground coming from the Raspberry Pi.
 
+ **2.** Connect the `VCC` pin on the moudle to any avaible `3V` pin coming from the Raspberry Pi.
+
+ **3.** Connect the `IO` pin on the module to `GPIO 17` on the Raspberry Pi.
+
+ **4.** Connect the negative pin on two different LED's to two `220 Ohm` resistors to a `GND` rail from a breadboard going to the Raspberry Pi.
+
+ **5.** Connect the positive pin from LED to `GPIO 22`, and the other LED to `GPIO 27` on the Raspberry Pi.
 
 **Day 14 DHT-11**
 ---------------------------
-
+ **2.** 
 
 **Day 15 Tilt Switch**
 ---------------------------
