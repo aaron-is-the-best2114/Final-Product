@@ -160,23 +160,39 @@
 
 **Day 14 DHT-11**
 ---------------------------
- **2.** 
+ **1.** Connect the voltage pin on the module to a `3v3` rail from a breadboard coming from the Raspberry Pi.
+
+ **2.** Connect the `out` pin on the module to `GPIO 22` on the Raspberry Pi and to a `10K Ohm` resister connect the a `3V3` rail from a breadboard coming from the Raspberry Pi.
+
+ **3.** Connect the `-` pin on the module to any avaiable `GND` or to a `GND` rail on a breadboard coming from the Raspberry Pi.
 
 **Day 15 Tilt Switch**
 ---------------------------
-
+ **1.** This one is optional and can be done on your own. This is is the exact same as the `Touch Switch Module` from day 13.
 
 **Day 16 Speed Sensor**
 ---------------------------
+ **1.** Connect the `D0` pin on the module to `GPIO 23` on the Raspberry Pi.
 
+ **2.** Connect the `GND` and `VCC` pins on the module to their respectable places. Any questions ask.
+
+ **3.** Connect the negative pins on the two different LED's to two different `220 Ohm` resitors. Connect both to any avaiable `GND` pin on the Raspberry Pi.
+
+ **4.** Connect on LED's postive pin to `GPIO 23` and the other to `GPIO 24` on the Raspberry Pi.
 
 **Day 17 PIR Sensor**
 ---------------------------
+ **1.** Connect the `Signal` pin on the module to `GPIO 24` on the Raspberry Pi.
 
+ **2.** Connect the `-` and `+` pins on the module to a `GND` and `5V` pin avaiable to use.
+
+ **3.** Connect the `R` `G` `B` LED to `220 Ohm` resistors connect to pins `GPIO 4`, `GPIO 5`, and `GPIO 6` respectivly.
+
+ **4.** Connect the `RGB` LED to any `GND` pin on the Raspberry Pi.
 
 **Day 18 MPU6050**
 ---------------------------
-
+ **1.** 
 
 **Day 19 Ultrasonic Sensor**
 ---------------------------
@@ -220,8 +236,8 @@
 
 **Day 29 RGB LED**
 ---------------------------
+ **1.** The `RGB` is already setup due to the `PIR` sensor requiring it. No extra work needed it's already setup to work.
 
-
-**Day 30 Button**
+**Day 30 Button w/ LED**
 ---------------------------
-
+ **1.** The LED is already setup from the Speed Sensor. Place the button on a breadboard so that
