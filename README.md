@@ -208,8 +208,10 @@
 
 **Day 20 Joystick**
 ---------------------------
+ **1.** Place an `ADC0834` IC Chip on a breadboard so that the lettering is readable to you. I urge you not to place upside down, if you need help, I will provide you with pictures.
 
-
+ **2.** 
+ 
 **Day 21 Rotary Encoder**
 ---------------------------
 
