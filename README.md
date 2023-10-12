@@ -192,7 +192,7 @@
 
 **Day 18 MPU6050**
 ---------------------------
- **1.** 
+ **1.** Connect 
 
 **Day 19 Ultrasonic Sensor**
 ---------------------------
@@ -240,4 +240,10 @@
 
 **Day 30 Button w/ LED**
 ---------------------------
- **1.** The LED is already setup from the Speed Sensor. Place the button on a breadboard so that
+ **1.** The LED is already setup from the Speed Sensor. Place the button on a breadboard so that the pins are up and down and there are not pins on the side of them. 
+
+ **2.** Connect the top left pin on the button to a `10k Ohm` resistor which will connect to a `3V3` rail on a breadboard.
+
+ **3.** Connent the top left pin on the button again to `GPIO 13` on the Raspberry Pi.
+
+ **4.** Connect the bottom right pin on the button to any available `GND` pin on the Raspberry Pi or a breadboard.
