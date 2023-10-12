@@ -236,7 +236,7 @@
 
 **Day 29 RGB LED**
 ---------------------------
- **1.** The `RGB` is already setup due to the `PIR` sensor requiring it. No extra work needed it's already setup to work.
+ **1.** The `RGB LED` is already setup due to the `PIR` sensor requiring it. No extra work needed it's already setup to work.
 
 **Day 30 Button w/ LED**
 ---------------------------
